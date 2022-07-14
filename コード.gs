@@ -1,5 +1,4 @@
-// LINE developers記載のアクセストークン
-//var ACCESS_TOKEN = 'SqCsEw6J94z2YehmYroZK5zWaRuCZXzujP50864gSNjUe0mLh01YmFtbbj/7ZEz9RwYHEXYJTDc/MlvA3o2+aHl3CDS/SHxQQ5WQVwE4BAOxUci9rmMx3Gu/cKp036m/CckkQVy1wloqsrzHTsDv/AdB04t89/1O/w1cDnyilFU=';
+ENV.setscprop()
 var prop = PropertiesService.getScriptProperties();
 var ACCESS_TOKEN = prop.getProperty("LINE_TOKEN");
 

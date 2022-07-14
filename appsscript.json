@@ -1,6 +1,15 @@
 {
   "timeZone": "Europe/Stockholm",
-  "dependencies": {},
+  "dependencies": {
+    "libraries": [
+      {
+        "userSymbol": "ENV",
+        "version": "0",
+        "libraryId": "1GwUrdffEXORU-sTLy8VkwH0kaiFIXLDVsf-4ZD0F9pV68d6oKTg9lsmJ",
+        "developmentMode": true
+      }
+    ]
+  },
   "exceptionLogging": "STACKDRIVER",
   "runtimeVersion": "V8",
   "webapp": {
